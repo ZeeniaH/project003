@@ -3,8 +3,8 @@ import './Hello.css';
 
 
 
-function Hello({name}) {
-    return <p className = "myname">This is para in Hello tag updated {name} </p>
+function Hello({firstname}) {
+    return <p className = "myname">This is para in Hello tag updated {firstname} </p>
 
 }
 
